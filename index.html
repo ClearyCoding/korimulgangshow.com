@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <title>Home - Korimul Gang Show</title>
 
+    <link rel="stylesheet" href="/assets/styles/main.css">
     <link rel="stylesheet" href="/assets/styles/header.css">
+    <link rel="stylesheet" href="/assets/styles/sections.css">
     <link rel="icon" type="image/x-icon" href="/assets/images/MISC/KorimulLogo.png%20-%20Copy.png">
 </head>
 <body>
     <header class="header">
-        <img alt="Korimul Gang Show" src="/assets/images/MISC/KorimulLogo.png%20-%20Copy.png" class="logo">
+        <a href="/" target="_self"><img alt="Korimul Gang Show" src="/assets/images/MISC/KorimulLogo.png%20-%20Copy.png" class="logo"></a>
         <nav>
             <h2>Home</h2>
             <h2>About</h2>
@@ -23,22 +25,16 @@
             <a href="https://www.tiktok.com/@korimul_gangshow" target="_blank"><img src="/assets/images/MISC/11062b_69d309d6dbde492fae325fb0deca6556~mv2.webp" alt="TikTok"></a>
             <a href="https://www.youtube.com/channel/UCgNpYUI_-LRWo3m9njp2vqA" target="_blank"><img src="/assets/images/MISC/11062b_8dcadfa428954b1d919f8499f75aa27a~mv2.webp" alt="Youtube"></a>
         </section>
+        <script src="/assets/scripts/headerDucking.js"></script>
     </header>
-    <script>
-        let lastScrollTop = 0;
-        const header = document.querySelector(".header");
-
-        window.addEventListener("scroll", () => {
-            console.log("hi")
-            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            if (scrollTop > lastScrollTop && scrollTop > window.innerHeight) {
-                header.style.top = "-120px";
-            } else {
-                header.style.top = "0";
-            }
-            lastScrollTop = scrollTop;
-        });
-
-    </script>
+    <main class="parallax" style="height: 1000px">
+        <figure class="backdrop backdrop-title"></figure>
+        <article class="section section-home">
+            test1
+            <article class="void void-title">
+                test2
+            </article>
+        </article>
+    </main>
 </body>
 </html>

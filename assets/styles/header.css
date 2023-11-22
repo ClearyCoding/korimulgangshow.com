@@ -9,20 +9,29 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    z-index: 255;
 }
 header .logo {
     height: 100px;
     padding-right: 50px;
+    cursor: pointer;
 }
 header nav {
     display: flex;
 }
 header nav h2 {
+    color: white;
     box-sizing: border-box;
     padding: 21px 0;
     width: 132px;
     font-size: 20px;
     text-align: center;
+    font-family: Avenir, Arial, sans-serif;
+    cursor: pointer;
+    transition: color 0.25s;
+}
+header nav h2:hover {
+    color: darkred;
 }
 header .navbar-socials {
     display: flex;
@@ -31,4 +40,8 @@ header .navbar-socials {
 header .navbar-socials img {
     height: 32px;
     width: 32px;
+}
+header .navbar-socials img:hover,
+header .logo:hover {
+    filter: brightness(80%);
 }

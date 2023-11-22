@@ -1,0 +1,15 @@
+.backdrop-title {
+    height: 100vh;
+}
+.void-title {
+    height: 90vh;
+    top: -90vh;
+}
+.section-home {
+    margin-top: 90vh;
+    height: auto;
+}
+
+.backdrop-title {
+    background-image: url("/assets/images/GangShow2022/IMG_1451.jpg");
+}
