@@ -42,9 +42,10 @@ body {
 
     transform: translateZ(-5px) scale(1.5);
     position: absolute;
-    width: calc(100% + 10px);
+    width: 100%;
     object-fit: cover;
     z-index: -1;
+    top: -335px;
 }
 .section {
     position: relative;
