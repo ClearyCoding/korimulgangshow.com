@@ -50,6 +50,9 @@ body {
 .section {
     position: relative;
     background: linear-gradient(#171717, #212123, #171717);
+    min-height: 450px;
+    padding: 30px;
+    box-sizing: border-box;
 }
 .void {
     width: 100%;
