@@ -23,6 +23,7 @@ body {
     overflow-x: hidden;
     perspective: 10px;
     width: 100%;
+    background-color: #171717;
 }
 .parallax {
     height: 100vh;
@@ -42,7 +43,7 @@ body {
 
     transform: translateZ(-5px) scale(1.5);
     position: absolute;
-    width: 100%;
+    width: calc(100% + 10px);
     object-fit: cover;
     z-index: -1;
 }
