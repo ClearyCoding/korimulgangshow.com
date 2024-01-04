@@ -23,7 +23,7 @@ body {
     overflow-x: hidden;
     perspective: 10px;
     width: 100%;
-    background-color: #171717;
+    background-color: #111111;
 }
 .parallax {
     height: 100vh;
@@ -59,6 +59,10 @@ body {
     position: absolute;
     left: 0;
     right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .anchor {
     position: absolute;
@@ -70,4 +74,10 @@ figure {
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: Avenir, Arial, sans-serif;
+    margin: 0;
+    color: white;
+}
+h1 {
+    font-size: 6rem;
+    color: white;
 }
