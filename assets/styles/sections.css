@@ -10,3 +10,15 @@
     margin-top: 90vh;
     height: auto;
 }
+
+/* Home */
+.cards-container {
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    top: -300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
