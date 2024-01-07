@@ -1,29 +1,27 @@
 .backdrop-title {
     background-image: url("/assets/images/GangShow/GangShow2022/IMG_1451.jpg");
-    height: 150%;
+    height: 120%;
 }
 .void-title {
-    height: 130vh;
-    top: -130vh;
+    height: 110vh;
+    top: -110vh;
 }
 .section-home {
-    margin-top: 130vh;
+    margin-top: 110vh;
     height: auto;
 }
 
 /* Home */
-.cards-container {
-    width: 900px;
-    height: 500px;
+.void-title h1 {
+    color: #fdf250;
+}
+.void-title h2 {
+    color: #2759b3;
+    padding-bottom: 100px;
+}
+.transition {
+    height: 180px;
     position: absolute;
-    top: -250px;
-    background-color: black;
-}
-.card {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.section-home {
-    padding-top: 350px;
+    top: -180px;
+    left: 0;
 }

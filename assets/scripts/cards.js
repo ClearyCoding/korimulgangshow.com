@@ -36,3 +36,21 @@ function loadHTML() {
     });
     cardContainer.innerHTML = cardsHTML;
 }
+
+/*
+<section class="cards-container"></section>
+<script src="/assets/scripts/cards.js"></script>
+
+.cards-container {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: -250px;
+    background-color: black;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+*/
