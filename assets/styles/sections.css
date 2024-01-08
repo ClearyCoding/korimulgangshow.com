@@ -10,6 +10,18 @@
 .section-about {
     margin-top: 110vh;
 }
+.backdrop-cards {
+    background-image: url("/assets/images/backdrops/cards.jpg");
+    filter: brightness(80%) blur(1px);
+    height: 770px;
+}
+.void-cards {
+    height: 750px;
+    top: -750px;
+}
+.section-shows {
+    margin-top: 750px;
+}
 
 /* Title */
 .void-title h1 {
