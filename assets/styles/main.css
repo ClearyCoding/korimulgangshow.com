@@ -49,10 +49,15 @@ body {
 }
 .section {
     position: relative;
-    background: #fbda03;
     min-height: 450px;
     padding: 30px;
     box-sizing: border-box;
+}
+.section-yellow {
+    background: #fbda03;
+}
+.section-blue {
+    background: #3037ff;
 }
 .void {
     width: 100%;
@@ -86,15 +91,32 @@ h1, h2, h3, h4, h5, h6, p {
 }
 h1 {
     font-size: 6rem;
+    font-weight: bold;
+    color: #fbda03;
 }
+
 h2 {
     font-size: 3rem;
 }
+.section-yellow h2 {
+    color: #3037ff;
+}
+.section-blue h2 {
+    color: #fbda03;
+}
+
 h3 {
     font-size: 2.25rem;
 }
+
 p {
     font-size: 1.25rem;
+}
+.section-yellow p {
+    color: #111111;
+}
+.section-blue p {
+    color: #dddddd;
 }
 
 /* Custom Scrollbar */

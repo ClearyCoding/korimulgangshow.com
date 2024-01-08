@@ -1,5 +1,6 @@
 .backdrop-title {
     background-image: url("/assets/images/backdrops/title.jpg");
+    filter: brightness(90%);
     height: 120%;
 }
 .void-title {
@@ -11,10 +12,6 @@
 }
 
 /* Title */
-.void-title h1 {
-    color: #fbda03;
-    font-weight: bold;
-}
 .void-title h1 {
     background-color: #f3ec78;
     background-image: linear-gradient(45deg, #3037ff, #fbda03);
@@ -33,9 +30,5 @@
     align-items: center;
 }
 .section-about h2 {
-    color: #3037ff;
     margin-bottom: 1rem;
-}
-.section-about p {
-    color: #111111;
 }
