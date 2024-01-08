@@ -54,10 +54,10 @@ body {
     box-sizing: border-box;
 }
 .section-yellow {
-    background: #fbda03;
+    background: linear-gradient(#fbda03, #fbef03, #fbda03);
 }
 .section-blue {
-    background: #5252ce;
+    background: linear-gradient(#5252ce, #5267ce, #5252ce);
 }
 .void {
     width: 100%;
