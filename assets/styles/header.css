@@ -11,7 +11,22 @@ header {
     flex-direction: row;
     z-index: 255;
     transition: height 0.4s, opacity 0.4s;
-    background-color: rgba(11, 11, 11, 0.3);
+    margin-right: 10px;
+
+    background-color: rgba(11, 11, 11, 0.25);
+    box-shadow: 0 10px 10px rgba(11, 11, 11, 0.25);
+}
+.header-extension {
+    /* Usually the header blocks the scrollbar, not allowing the user to interact with it.
+    This allows the header to visually continue along the page, whilst allowing interaction
+    with the scrollbar beneath*/
+    height: 120px;
+    width: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(11, 11, 11, 0.25);
+    pointer-events: none;
 }
 header .logo {
     height: 100px;
@@ -37,7 +52,7 @@ header nav h2 {
 }
 header nav h2:hover {
     color: #fbda03;
-    text-shadow: 2px 2px rgba(48, 55, 255, 0.7), -1px -1px rgba(48, 55, 255, 0.7);
+    text-shadow: 2px 2px rgba(48, 55, 255, 0.6), -1px -1px rgba(48, 55, 255, 0.6);
 }
 header .navbar-socials {
     display: flex;
